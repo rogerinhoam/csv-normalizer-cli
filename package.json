@@ -1,0 +1,12 @@
+{
+  "name": "csv-normalizer-cli",
+  "version": "1.0.0",
+  "description": "Normaliza delimitadores, quebras de linha e BOM em arquivos CSV.",
+  "type": "module",
+  "bin": { "csv-normalizer": "./src/cli.js" },
+  "exports": "./src/index.js",
+  "scripts": { "test": "node --test" },
+  "keywords": ["csv", "cli", "data", "normalize"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
