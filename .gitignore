@@ -1,0 +1,4 @@
+node_modules/
+coverage/
+*.normalized.csv
+*.log
